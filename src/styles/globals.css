@@ -9,7 +9,7 @@
   --graphite: #242723;
   --base-unit: 4px;
   --background: var(--stone);
-  --foreground: #171717;
+  --foreground: var(--graphite);
 }
 
 @media (prefers-color-scheme: dark) {
