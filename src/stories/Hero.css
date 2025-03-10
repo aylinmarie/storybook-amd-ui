@@ -1,0 +1,23 @@
+/* Hero.css */
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background);
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-container h1 {
+    font-size: var(--font-size-h1);
+    margin-bottom: 10px;
+  }
+  
+  .hero-container h2 {
+    font-size: var(--font-size-h2);
+    margin-bottom: 20px;
+  }
+  
