@@ -1,0 +1,38 @@
+:root {
+    --font-size-h1: 2rem;
+    --font-size-h2: 1.75rem;
+    --font-size-h3: 1.5rem;
+    --font-size-h4: 1.25rem;
+    --font-size-h5: 1rem;
+    --font-size-h6: 0.875rem;
+  }
+  
+  .heading {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  .heading-1 {
+    font-size: var(--font-size-h1);
+  }
+  
+  .heading-2 {
+    font-size: var(--font-size-h2);
+  }
+  
+  .heading-3 {
+    font-size: var(--font-size-h3);
+  }
+  
+  .heading-4 {
+    font-size: var(--font-size-h4);
+  }
+  
+  .heading-5 {
+    font-size: var(--font-size-h5);
+  }
+  
+  .heading-6 {
+    font-size: var(--font-size-h6);
+  }
+  
