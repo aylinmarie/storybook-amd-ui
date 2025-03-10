@@ -5,6 +5,9 @@ import { fn } from '@storybook/test';
 const meta = {
   title: 'Components/Hero',
   component: Hero,
+  parameters: {
+    layout: "padded",
+  },
   args: {
     heading: 'Welcome to Our Website!',
     subheading: 'We offer the best services for you.',
