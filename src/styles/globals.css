@@ -8,6 +8,7 @@
   --sand: #ccafa4;
   --graphite: #242723;
   --base-unit: 4px;
+
   --background: var(--stone);
   --foreground: var(--graphite);
 }
