@@ -1,9 +1,14 @@
 import type { Preview } from "@storybook/react";
-import { Decorator } from "@storybook/react";
+import { Title, Subtitle, Description, Primary, Controls, Stories } from '@storybook/blocks';
 import '../src/styles/globals.css';
+
 
 const preview: Preview = {
   parameters: {
+    docs: {
+      toc: true,
+    },
+    layout: 'centered',
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -11,6 +16,7 @@ const preview: Preview = {
       },
     },
   },
+  tags: ['autodocs'],
 };
 
 export default preview;
