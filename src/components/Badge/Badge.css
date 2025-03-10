@@ -1,0 +1,30 @@
+/* Badge.css */
+
+  .badge {
+    display: inline-block;
+    padding: var(--base-unit);
+    border-radius: var(--base-unit);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--stone);
+    line-height: normal;
+  }
+  
+  .badge-clay {
+    background-color: var(--clay);
+  }
+  
+  .badge-stone {
+    background-color: var(--stone);
+    color: var(--graphite);
+  }
+  
+  .badge-sand {
+    background-color: var(--sand);
+    color: var(--graphite);
+  }
+  
+  .badge-graphite {
+    background-color: var(--graphite);
+  }
+  

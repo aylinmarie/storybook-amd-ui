@@ -1,0 +1,26 @@
+/* Hero.css */
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    padding: 0 20px;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  /* Light theme */
+  .hero-light {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Dark theme */
+  .hero-dark {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
