@@ -2,7 +2,6 @@ import type { Preview } from "@storybook/react";
 import { Title, Subtitle, Description, Primary, Controls, Stories } from '@storybook/blocks';
 import '../src/styles/globals.css';
 
-
 const preview: Preview = {
   parameters: {
     docs: {

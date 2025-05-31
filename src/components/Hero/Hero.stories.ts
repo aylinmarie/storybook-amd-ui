@@ -13,23 +13,16 @@ const meta = {
     subheading: 'We offer the best services for you.',
     buttonText: 'Get Started',
     buttonOnClick: fn(),
-    variant: 'light', // Default variant
+    variant: 'light',
   },
 } satisfies Meta<typeof Hero>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-// Light Theme Hero
-export const Light: Story = {
+export const Default: Story = {
   args: {
     variant: 'light',
   },
 };
 
-// Dark Theme Hero
-export const Dark: Story = {
-  args: {
-    variant: 'dark',
-  },
-};

@@ -15,7 +15,4 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // Badge Variants
-export const Clay: Story = { args: { variant: "clay" } };
-export const Stone: Story = { args: { variant: "stone" } };
-export const Sand: Story = { args: { variant: "sand" } };
-export const Graphite: Story = { args: { variant: "graphite" } };
+export const Default: Story = { args: { variant: "clay" } };
